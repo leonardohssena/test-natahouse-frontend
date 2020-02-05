@@ -62,7 +62,7 @@ export default class Main extends Component {
         <div className="starship-list">
           {starships.map(({ name, consumables, MGLT, stops }) => (
             <article key={name}>
-              <p><strong>Aeronave: </strong>{name}</p>
+              <p><strong>Nave Estelar: </strong>{name}</p>
               <p><strong>Duração dos suprimentos: </strong>{consumables}</p>
               <p><strong>Distancia em Megalights por hora: </strong>{MGLT}</p>
               <p><strong>Número de paradas necessária: </strong>{stops}</p>
